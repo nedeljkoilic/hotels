@@ -1,0 +1,221 @@
+body {
+    padding-top: 10px;
+
+    /*height: fit-content;*/
+    z-index: -1;
+    background-image: url('../../slike/slika1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.9);
+
+
+    color: black;
+    font-weight: bold;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#pozadina {
+    min-height: 333px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: -1;
+    background-image: url('slike/slika1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+#log_out {
+    position: absolute;
+    right: 0;
+}
+
+#rezervacije {
+    position: absolute;
+    right: 100px;
+
+}
+
+form {
+    margin-top: 10;
+}
+
+form div {
+    display: inline-block;
+    width: max-content;
+
+}
+
+#prikazani_hotel {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+#cardhotel {
+    margin: auto;
+}
+
+#slika_hotela {
+    width: 100%;
+    height: 90%;
+}
+
+#pronadjeni_hoteli {
+    width: 80%;
+    margin: auto;
+
+}
+
+#opis_hotela {
+    margin: auto;
+    margin-top: 40px;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+#moje_rezervacije {
+    width: 80%;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+
+
+#btnRezervisi,
+#btnZatvori {
+    margin-top: 5;
+    width: max-content;
+    height: max-content;
+
+    background-color: rgb(192, 189, 189);
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#levitationRez {
+
+    position: fixed;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #1c1b1b99;
+    z-index: 1;
+
+}
+
+#levitationForm {
+    width: 280px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 13px;
+    padding: 30px;
+}
+
+#prijava {
+    text-align: center;
+
+
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    width: 20%;
+    height: 16%;
+    border-radius: 7px;
+}
+
+#div_prijave {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    background: #0000009c;
+}
+
+#komentar_ocjena {
+
+    width: 20%;
+    height: 25%;
+}
+
+#komentar_ocjena,
+#prijava_hotela {
+    text-align: center;
+
+
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#div_za_prijave {
+    width: 100%;
+    height: 100%;
+    background: #0000009c;
+    position: fixed;
+
+
+}
+
+#komentar_ocjena_levitation {
+    width: 100%;
+    height: 100%;
+    background: #0000009c;
+    position: fixed;
+    z-index: 1;
+
+}
+
+#prijava_hotela {
+
+    width: 20%;
+    height: 16%;
+    border-radius: 7px;
+}
+
+body,
+html {
+    height: fit-content;
+    width: 100%;
+}
